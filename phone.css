@@ -1,0 +1,47 @@
+
+nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    font-size: 12px;
+}
+nav ul li a{
+    padding: 2px 16px;
+    margin: 2px 3px;
+}
+#home{
+    padding: 0px 20px;
+}
+#home h1, .h-primary{
+    font-size: 40px;
+    padding: 10px;
+}
+#home p{
+    font-size: 13px;
+}
+#services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 15px 13px;
+    margin: 2px 3px;
+}
+#clients{
+    flex-direction: column;
+}
+
+#clients-container{
+    overflow: hidden;
+}
+
+#microsoft{
+    height: 50px;
+    width: 210px;
+}
